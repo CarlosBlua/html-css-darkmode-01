@@ -1,0 +1,25 @@
+/* body {
+    background-color: antiquewhite;
+    color: black;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+} */
+/* 
+:root {
+    color-scheme: dark light;
+} */
+
+h1, h2, h3 {
+    color: hsl(255, 50%, 40%);
+}
+
+@media (prefers-color-scheme: dark) {
+    h1, h2, h3 {
+        color: hsl(255, 50%, 70%);
+    }
+}
